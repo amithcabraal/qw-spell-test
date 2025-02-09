@@ -371,6 +371,7 @@ function App() {
                     <>
                       <input
                         type="text"
+                         autocomplete="off" autocorrect="off" spellcheck="false" inputmode="text"
                         value={userInput}
                         onChange={(e) => setUserInput(e.target.value)}
                         className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none dark:bg-gray-700 dark:text-white"
